@@ -19,7 +19,7 @@ android {
         }
     }
     buildTypes.each {
-        it.buildConfigField 'String','MyTmdbApiKey','"21f7fea2b83aca777d28ab9b12b8372a"'
+        it.buildConfigField 'String','MyTmdbApiKey','"API_KEY_HERE"'
     }
 }
 
